@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Keys To Win Sign Up</title>
+<link href="{{ url_for('static', filename ='keystowin.css')}}"  rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+</script>
+<![endif]-->
+</head>
+<body>
+ <div id="wrapper">
+<header>
+<h1> Keys To Win Sign Up </h1>
+</header>
+<nav>
+
+       <ul>
+
+              <li><b><a href="{{url_for('views.home')}}">Home</a></li> 
+              <li><a href="{{url_for('views.parents_page')}}">Parents </a></li>
+              <li><a href="{{url_for('views.about_us')}}">About Us </a></li>
+              <li><a href="{{url_for('views.sign_up')}}">Sign Up</a></li>
+              </b>
+              </li>
+       </ul>
+      
+</nav>
+<main>
+<div id="herojobs"></div>
+<audio controls= "controls">
+       <source src= "DreamOn.mp3" type= "audio/mpeg">
+</audio>
+<h2>Sign Up Now</h2>
+<p> Fill out the form below to start your application. 
+Please indicate in the comment section why you would like
+your children or self to be apart of this program.
+Required fields are marked with an asterik (*).
+</p><br>
+
+<form id= "InputForm" method="post" action= "http://webdevbasics.net/scripts/javajam8.php">
+ <label for= "myName" >* Name:</label>
+ <input type= "text" name="myName" id="myName"
+ required= "required"> <br>
+ <label for= "myEmail">* E-mail:</label>
+ <input type= "email" name="myEmail" id="myEmail"
+ required= "required"> <br>
+ <label for= "Comment">*Comment:</label>
+ <textarea name="myComment" id="myComment" rows="2" cols="20" required= "required"></textarea><br>
+ <br>
+ <input type="submit" value="Apply Now"> 
+</form>
+
+<br>
+
+</main>
+
+<footer>
+<p><small><i>Copyright: &copy; 2020 Keys To Win
+<a href="mailto:success@keystowin.org">success@keystowin.org</a></small></i></p>
+</footer>
+</div>
+</body>
+</html>
