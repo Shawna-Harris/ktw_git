@@ -8,7 +8,7 @@ body {
 }
 #wrapper { 
 	       background-color:#ffffb1;
-           width: 80%;
+           width: 100%;
            margin-right: auto;
 		   margin-left: auto;
            min-width: 900px;
@@ -16,11 +16,11 @@ body {
 		   box-shadow: 10px 10px 10px 10px #555555; 
 }
 header { background-color: cyan;
-        height: 150px;
+        height: 200px;
 		text-align: center;
 		background-repeat: no-repeat;
 }
-#example1{
+#my_title{
 	color: yellow;
 	font-family: Goudy Old Style;
 	font-size: 96px;
@@ -142,7 +142,7 @@ img { padding-left: 10px;
 		  font-size: 90%; }
 }
 @media only screen and (max-width: 768px) {
-	header { background-image: url(javajammini.jpg); 
+	header { 
 			height: 128px; }
 	h1 { font-size: 2em;
 	     text-align: center;
@@ -184,7 +184,7 @@ label{ float : left;
 input, textarea { display : block;
                   margin-bottom : 1em;}   
 				  
-#mySubmit : { margin-left : 9.5em;}
+#mySubmit { margin-left : 9.5em;}
 
 #herojobs { height : 250px;
             background-image : url(herojobs.jpg);
