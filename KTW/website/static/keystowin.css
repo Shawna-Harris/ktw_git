@@ -23,7 +23,7 @@ header { background-color: cyan;
 #my_title{
 	color: yellow;
 	font-family: Goudy Old Style;
-	font-size: 96px;
+	font-size: 85px;
 	-webkit-text-stroke-width: 4px;
     -webkit-text-stroke-color: DeepPink;
 }
@@ -170,25 +170,10 @@ table { margin : auto;
 
 td, th {padding : 10px;
 }
-		
-		  
 .altrow { background-color : #d2b48e;}	
 
-form { padding : 2em }
-label{ float : left; 
-       display : block; 
-	   text-align  : right; 
-	   width : 8em;  
-	   padding : 1em;}    
 
-input, textarea { display : block;
-                  margin-bottom : 1em;}   
-				  
 #mySubmit { margin-left : 9.5em;}
-
-#herojobs { height : 250px;
-            background-image : url(herojobs.jpg);
-            background-size : 100% 100% ;}
 
 audio  { display : block;
         margin-top : 1em; }

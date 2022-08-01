@@ -1,8 +1,14 @@
 from flask import Flask
+from flask_sqlalchemy import SQLAlchemy
 
 #function to initiate flask
 def create_app():
     app = Flask(__name__)
+
+
+    
+
+
    
     #secure cookies and session data for app
     app.config['SECRET_KEY']= 'pick pocket put a pickle in a puddle'
