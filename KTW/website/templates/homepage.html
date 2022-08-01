@@ -17,7 +17,13 @@ main {text-align: center}
 <body>
  <div id="wrapper">
 <header>
-
+<nav>
+    <ul>
+        <li style="display:inline"><a href="{{url_for('auth.login')}}">Login</a></li>
+        <li style="display:inline"><a href="{{url_for('auth.logout')}}">Logout</a></li>
+    </ul>
+</nav>
+</header>
     <!-- title with built color scheme -->
 <h1 id="my_title"> Keys To Win </h1>
 
