@@ -15,17 +15,22 @@ def parents_page():
 @views.route('/sign_up', methods=['GET', 'POST'])
 def sign_up():
     if request.method == 'POST':
-        email = request.form.get('email')
+        email = request.form.get('myEmail')
         first_name = request.form.get('firstName')
+        last_name = request.form.get('lastName')
+        contact_num = request.form.get('contactNumber')
         password1 = request.form.get('password1')
         password2 = request.form.get('password2')
-        last_name= request.form.get('lastName')
-
-       
+        
+        
         if len(email) < 4:
             flash('Email must be greater than 3 characters.', category='error')
         elif len(first_name) < 2:
             flash('First name must be greater than 1 character.', category='error')
+        elif len(last_name) < 2:
+            flash('Last name must be greater than 1 character.', category='error')
+        elif len(contact_num) < 9:
+            flash('The contact number must be 9 character.', category='error')
         elif password1 != password2:
             flash('Passwords don\'t match.', category='error')
         elif len(password1) < 7:
