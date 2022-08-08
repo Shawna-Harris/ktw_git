@@ -10,8 +10,8 @@ def home():
 
 @views.route('/parents')
 def parents_page():
-    return render_template('parents.html')
-
+    return render_template('parents.html') 
+"""
 @views.route('/sign_up', methods=['GET', 'POST'])
 def sign_up():
     if request.method == 'POST':
@@ -37,7 +37,7 @@ def sign_up():
             flash('Password must be at least 7 characters.', category='error')
         else:
             flash('Congratulations! The account is created.', category='success')
-    return render_template('signup.html')
+    return render_template('signup.html') """
 
 @views.route('/about_us')
 def about_us():
