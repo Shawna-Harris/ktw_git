@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>About Us</title>
+<title>Sign Up</title>
 <link href= "{{ url_for('static', filename ='keystowin.css')}}"  rel="stylesheet">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,14 +9,11 @@
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
 </script>
 <![endif]-->
-<style>
-
-</style>
 </head>
 <body>
  <div id="wrapper">
 <header>
-<h1 id="my_title">About Us</h1>
+<h1> Keys To Win Sign Up </h1>
 </header>
 <nav>
   <ul>
@@ -24,31 +21,23 @@
     <li><b><a href="{{url_for('views.home')}}">Home</a></li> 
     <li><a href="{{url_for('views.parents_page')}}">Parents </a></li>
     <li><a href="{{url_for('views.about_us')}}">About Us </a></li>
-    <li><a href="{{url_for('auth.sign_up')}}">Sign Up</a></li>
+    <li><a href="{{url_for('views.sign_up')}}">Sign Up</a></li>
     </b>
     </li>
 </ul>
 
 
 </nav>
-<main id="about_main">
-  <br>
-<div id="kids_code"></div>
+<main>
+<div id="herojobs"></div>
 
+<h2>About Us</h2>
 
-
-<p id="abt_outline"><strong><b> At Keys To Win we believe in the growth of the human spirit, soul, mind and condition.
+<p> At Keys To Win we believe in the growth of the human spirit, soul, mind and condition.
   We understand that through education, diligence, compassion, and community we can help to 
   eradicate barriers that contribute to poverty and crime. Our hope is to instill a love of
-  learning how to code in our participants. Coding is a digital playground where children can have
-  fun through creative expression and logical implementation.  Learning how to code at a young age 
-  can lead to equitable, safe, and diverse communities.</b></strong> <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-</p>
+  learning how to code and how to create in our participants.  Thus, leading to equitable, 
+  safe, and diverse communities. </p>
 
 <br>
 
@@ -65,3 +54,5 @@
 
 
 
+</body>
+</html>

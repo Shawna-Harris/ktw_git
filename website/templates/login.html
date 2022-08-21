@@ -14,7 +14,7 @@
 </head>
 <body id="login_wrapper">
     <header>
-       <!--  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -29,7 +29,7 @@
               </ul>
               
             </div>
-          </nav> -->
+          </nav>
                 
                 
                 
@@ -38,7 +38,7 @@
 
 
    <p> <b><h1 style="color: rgb(0, 183, 255);"> Login Page</h1></b><br>
-    <a href="{{url_for('auth.sign_up')}}">Don't have an account?  Sign-Up.</a></p><br>
+    <a href="{{url_for('views.sign_up')}}">Don't have an account?  Sign-Up.</a></p><br>
     <form id= "InputForm" method="post" >
         <div class = "form-group">
            
@@ -65,10 +65,6 @@
             
       <br>   
      <input type="submit"  class= "btn btn-primary" value="Login"> 
-     <br>
-     <br>
-
-     <a href="{{url_for('auth.sign_up')}}">Forgot paswword? </a></p><br>
     
     </form>
     </div>

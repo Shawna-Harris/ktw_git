@@ -52,7 +52,6 @@ nav ul { list-style-type: none;
        padding-left: 0;  }
 
 
-
 nav a { text-decoration: none;
        padding: 20px;
        display: block;
@@ -84,22 +83,6 @@ h4 { background-color: cyan;
 	border-bottom: 1px dashed #000033;
     clear: left;}
 
-#kids_code {
-			border: 5px solid yellow;
-			height : 300px;
-			width: 50%;
-			margin-left: 250px;
-			background-image : url(kids_code.jpg);
-			}
-#abt_outline{
-			font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-			font-size: larger;
-			color:#0e0505;
-
-			-webkit-text-stroke-width: 1px;
-   			-webkit-text-stroke-color: DeepPink;
-			}
-
 .details { padding-left: 20%;
           padding-right: 20%;
 		  overflow: auto;
@@ -110,11 +93,6 @@ h4 { background-color: cyan;
 }
 img { padding-left: 10px;
      padding-right: 10px;
-}
-
-#about_main{
-	height: 600px;
-	
 }
 
 #images { background-image: url(images.jpg);
@@ -193,7 +171,7 @@ table { margin : auto;
 
 td, th {padding : 10px;
 }
-.altrow { background-color : hotpink;}
+.altrow { background-color : #d2b48e;}
 
 #mySubmit { margin-left : 9.5em;}
 

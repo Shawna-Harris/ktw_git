@@ -1,4 +1,5 @@
-
+{% extends "base_jinga.html" %} {% block title %}Keys To Win Sign Up{% endblock %} {% block
+    content %}
 
 <link href="{{ url_for('static', filename ='keystowin.css')}}" rel="stylesheet">
 <!-- CSS only -->
@@ -25,7 +26,7 @@
            <li><b><a href="{{url_for('views.home')}}">Home</a></li> 
            <li><a href="{{url_for('views.parents_page')}}">Parents </a></li>
            <li><a href="{{url_for('views.about_us')}}">About Us </a></li>
-           <li><a href="{{url_for('auth.sign_up')}}">Sign Up</a></li>
+           <li><a href="{{url_for('views.sign_up')}}">Sign Up</a></li>
            </b>
            </li>
        </ul>
@@ -67,7 +68,15 @@ Required fields are marked with an asterik (*).
                 id="myEmail"
                 placeholder= "Enter Email" 
                 required= "required"> <br>
-       
+        <label for= "contactNumber">* Contact Number:</label>
+            <input 
+                type= "text" 
+                class= "form-control"
+                name="contactNumber" 
+                id="contactNumber"
+                placeholder= "Enter Phone Number" 
+                required= "required"> <br>
+
         <label for= "password1">* Password:</label>
             <input  
                 type= "password"  
@@ -97,3 +106,4 @@ Required fields are marked with an asterik (*).
 </footer>
 </div>
 </body>
+{% endblock %}
