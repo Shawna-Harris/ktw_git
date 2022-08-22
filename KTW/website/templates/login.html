@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% extends "base_jinja.html" %}  {% block
+  content %}
+
     <title>Login</title>
     <link href="{{ url_for('static', filename ='keystowin.css')}}" rel="stylesheet">
 <!-- CSS only -->
@@ -14,30 +11,16 @@
 </head>
 <body id="login_wrapper">
     <header>
-       <!--  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                  <a class="nav-link" href="{{url_for('auth.login')}}">Login</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="{{url_for('auth.logout')}}">Logout</a>
-                </li>
-              </ul>
+      
               
-            </div>
-          </nav> -->
-                
+    <h1 style="color: white"><strong><b>Login Page </b></strong></h1>
                 
                 
         
     </header>
+    <br>
 
-
-   <p> <b><h1 style="color: rgb(0, 183, 255);"> Login Page</h1></b><br>
+   <p> 
     <a href="{{url_for('auth.sign_up')}}">Don't have an account?  Sign-Up.</a></p><br>
     <form id= "InputForm" method="post" >
         <div class = "form-group">
@@ -68,7 +51,8 @@
      <br>
      <br>
 
-     <a href="{{url_for('auth.sign_up')}}">Forgot paswword? </a></p><br>
+     <a href="{{url_for('auth.reset_request')}}">Forgot paswword? </a></p>
+     <a href="{{url_for('views.home')}}">Back to Home</a>
     
     </form>
     </div>
@@ -77,3 +61,4 @@
 
 </body>
 </html>
+{% endblock %}
