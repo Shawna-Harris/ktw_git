@@ -6,13 +6,13 @@ Keys To Win is a kid-friendly web application designed to provide disadvantaged 
 
 Make sure you have the latest version of Python installed on your local computer. 
 
-<ol>
+<ul>
 <li>git clone <repo-url>
-pip install flask
-pip install flask-login
-pip flask-SQLAlchemy
-pip install -r requirements.txt
-    </ol>
+<li><li>pip install flask
+<li>pip install flask-login
+<li>pip flask-SQLAlchemy
+<li>pip install -r requirements.txt
+    </ul>
 
 
 ##Built With:
