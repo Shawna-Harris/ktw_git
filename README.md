@@ -1,6 +1,6 @@
 <h1><span style = "color: hotpink "><b> Keys To Win </b></span></h1>
 
-Keys To Win is a kid-friendly web application designed to provide disadvantaged children from ages 8-11 an introduction to coding and computer science.  
+Keys To Win is a kid-friendly web application designed to provide disadvantaged children from ages 8-11 an introduction to coding and computer science. The application will be used as a Saturday "lunch and learn" platform.  It is so important to pay it forward, so eventually launhing this application will be amazing.  The project is not complete, yet, the development of the application is ongoing.  
 
 <h2>Setup and Installation</h2>
 
