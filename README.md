@@ -48,6 +48,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
     
 
-  
+<h2>Project Images</h2>  
+
+![](code%20design.docx)
  
-    
+
