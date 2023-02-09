@@ -50,6 +50,12 @@ SOFTWARE.
 
 <h2>Project Images</h2>  
 
-![](Code%20Design]login.png)
+<img width="953" alt="user interface" src="https://user-images.githubusercontent.com/95557624/217909735-7cf7098c-cb8e-4a41-804a-3600b533be08.png">
+<img width="854" alt="web form and jinja msg" src="https://user-images.githubusercontent.com/95557624/217909795-ec29b303-9d04-4470-90a6-4db5881dd3a4.png">
+<img width="845" alt="embedded media and nav bar" src="https://user-images.githubusercontent.com/95557624/217909880-4f6526a6-f2b5-4101-80ce-2d0f967f504e.png">
+<img width="941" alt="Login" src="https://user-images.githubusercontent.com/95557624/217909893-cab33113-85bb-46ee-be16-5f993dc5baea.png">
+<img width="875" alt="reset password" src="https://user-images.githubusercontent.com/95557624/217909958-f41ebb57-7c25-4757-aef9-3bf0d5a78321.png">
+<img width="875" alt="specific user account" src="https://user-images.githubusercontent.com/95557624/217909980-89c0c8d5-9643-4473-bf2b-92691d9a01c9.png">
+<img width="875" alt="sqlite entry" src="https://user-images.githubusercontent.com/95557624/217910135-8d5a33ff-345a-44a3-926b-e725ebdb9489.png">
  
 
